@@ -1,0 +1,21 @@
+
+
+[Errno 5] 입력/출력 오류
+
+
+[Errno 5] 입력/출력 오류
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/zulipterminal/cli/run.py", line 227, in parse_zuliprc
+    fetch_zuliprc(zuliprc_path)
+  File "/usr/local/lib/python3.8/dist-packages/zulipterminal/cli/run.py", line 163, in fetch_zuliprc
+    print(in_color('red', "zuliprc file was not found at " + zuliprc_path)
+OSError: [Errno 5] 입력/출력 오류
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/zulipterminal/cli/run.py", line 331, in main
+    zterm = parse_zuliprc(zuliprc_path)
+  File "/usr/local/lib/python3.8/dist-packages/zulipterminal/cli/run.py", line 233, in parse_zuliprc
+    print(in_color('red',
+OSError: [Errno 5] 입력/출력 오류
